@@ -199,26 +199,47 @@ body {
 
 /* MAIN SEPARADOR 1 */
 
-.main .separador-1 {
-  height: 90px;
-  background-color: white;
-}
 
-.main .separador-1 .botones-separador1 {
-  height: 100%;
+
+/*separador 1*/
+
+.main .separador-1{
+  height: 100px;
+  background-color: white;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
-.button-separador1 {
-  height: 20px;
-  background-color: #8d0202;
-  border: none;
-  cursor: pointer;
+
+.button-sep{
+cursor: pointer;
+padding-left: 50px;
+padding-right: 50px;
+margin-left: 50px;
+margin-right: 50px;
+border: none;
+max-width: 100%;
+max-height: 100%;
+display: flex;
+align-items: center;
+background-color: transparent;
+
 }
 
+.button-sep .material-icons{
+  color: #8d0202;
+  font-size: 30px;
+  margin: 5px;
+}
 
+.button-sep p{
+  font-family: 'Bebas Neue', sans-serif;
+  color: #8d0202;
+  font-size: 25px;
+
+
+}
 
 
 /* comienza el footer */
@@ -239,7 +260,7 @@ footer {
   height: 130px;
   align-items: center;
   color: white;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   margin-bottom: 25px;
 }
 
@@ -294,6 +315,7 @@ footer {
   justify-content: center;
   align-items: center;
   height: 200px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   font-size: 40px;
+  font-weight: bold;
 }
